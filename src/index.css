@@ -3,3 +3,10 @@ body {
   padding: 0;
   font-family: sans-serif;
 }
+
+
+/* This will make both the html and body elements hide (and disable) scrolling. It will also make these elements fit the entire screen. */
+html, body {
+  overflow: hidden;
+  height: 100%
+}
