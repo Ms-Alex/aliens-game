@@ -1,6 +1,8 @@
 import React from 'react';
 import Sky from './Sky';
 import Ground from './Ground';
+import CanonBase from './CanonBase';
+import CanonPipe from './CanonPipe';
 
 const Canvas = () => {
     const style = {
@@ -15,7 +17,9 @@ const Canvas = () => {
 
             <Sky />
             <Ground />
-            <circle cx={0} cy={0} r={50} />
+
+            <CanonPipe rotation={45} />            
+            <CanonBase />
 
         </svg>
     );
