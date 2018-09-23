@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const CanonPipe = (props) => {
     const canonPipeStyle = {
@@ -33,5 +34,9 @@ const CanonPipe = (props) => {
         </g>
     );
 }
+
+CanonPipe.propTypes = {
+    rotation: PropTypes.number.isRequired
+};
 
 export default CanonPipe;
