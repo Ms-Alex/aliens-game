@@ -20,7 +20,7 @@ const CanonBase = (props) => {
 
             <path 
                 style={canonBaseStyle} 
-                d={ `M${-halfBase} ${height} C 20 ${negativeHeight}, 60 ${negativeHeight}, ${baseWidth} 0` } 
+                d={ `M ${-halfBase} ${height} c 20 ${negativeHeight}, 60 ${negativeHeight}, ${baseWidth} 0` } 
             />
 
             <line

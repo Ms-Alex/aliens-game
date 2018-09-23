@@ -19,7 +19,7 @@ const CanonPipe = (props) => {
             
             <path
                 style={canonPipeStyle}
-                d={ `M${-halfMuzzle} ${-yBase} C -40 ${height*1.7}, 80 ${height*1.7}, ${muzzleWidth} 0` }
+                d={ `M ${-halfMuzzle} ${-yBase} c -40 ${height*1.7}, 80 ${height*1.7}, ${muzzleWidth} 0` }
             />
 
             <line
